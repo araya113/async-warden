@@ -1,3 +1,8 @@
+---
+name: architecture
+description: This is a new rule
+---
+
 # ARCHITECTURE
 
 このファイルは **async-warden の設計上の不変条件** です。
@@ -141,6 +146,6 @@ async-warden は **説明可能性** を最重要視します。
 
 ## Related docs
 
-* `docs/architecture.md` : 詳細版
-* `docs/decision-model.md` : Lag + ELU → pressure → 制御の意思決定
-* `docs/limiter-behavior.md` : limiter の挙動（queue / priority / shedding）
+* `../../docs/architecture.md` : 詳細版
+* `../../docs/decision-model.md` : Lag + ELU → pressure → 制御の意思決定
+* `../../docs/limiter-behavior.md` : limiter の挙動（queue / priority / shedding）
