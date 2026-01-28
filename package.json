@@ -1,0 +1,30 @@
+{
+  "name": "async-warden",
+  "version": "1.0.0",
+  "type": "module",
+  "private": false,
+  "license": "MIT",
+  "description": "**async-warden** は、Node.js の Event Loop を監視し、   **過負荷状態に陥る前にサーバを予防的に守る** ための TypeScript 製 OSS です。",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/araya113/async-warden.git"
+  },
+  "keywords": [],
+  "author": "araya113",
+  "bugs": {
+    "url": "https://github.com/araya113/async-warden/issues"
+  },
+  "homepage": "https://github.com/araya113/async-warden#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
