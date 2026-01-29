@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/araya113/async-warden#readme",
   "devDependencies": {
+    "@types/node": "^25.0.10",
     "typescript": "^5.9.3"
   }
 }
