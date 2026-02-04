@@ -1,4 +1,7 @@
-export * from './monitor/index.js';
-export * from './control/index.js';
-export * from './limiter/index.js';
-export * from './warden/index.js';
+// 公開 API: Warden ファサードと利用者が触る型のみ露出
+export { Warden, type WardenOptions } from "./warden/index.js";
+export type {
+  LimiterResult,
+  TaskOptions,
+  ShedReason,
+} from "./limiter/index.js";
